@@ -1,7 +1,7 @@
-total_hours = input('Total Working Hours: ')
-hourly_rate = input('Hourly Rate: ')
+total_hours = float(input('Total Working Hours: '))
+hourly_rate = float(input('Hourly Rate: '))
 
-monthly_salary = float(total_hours) * float(hourly_rate)
+monthly_salary = total_hours * hourly_rate
 
 print(f'Monthly Salary is ${monthly_salary:.2f}')
 
