@@ -3,4 +3,4 @@ hourly_rate = input('Hourly Rate: ')
 
 monthly_salary = float(total_hours) * float(hourly_rate)
 
-print(f'Monthly Salary is ${monthly_salary}')
+print(f'Monthly Salary is ${monthly_salary:.2f}')
